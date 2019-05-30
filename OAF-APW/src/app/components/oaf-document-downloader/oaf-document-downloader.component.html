@@ -1,0 +1,7 @@
+<div style="height:30%;visibility: hidden;"></div>
+<div *ngIf="docDownloadMsg" class="download">
+  <span>{{docDownloadMsg}}</span>
+</div>
+<div *ngIf="!docDownloadMsg" class="download">
+    <span>Please wait downloading...</span>
+</div>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div *ngIf="!isAddSalesComment">
+    <button (click)="addCustomSalesComment()" class="activiti-btn activiti-btn-primary customSubmitSalesButton" [disabled]="isDisableAllFields"><i
+        class="fa fa-plus"></i> ADD COMMENT FOR SALES</button>
+  </div>
+  <br>
+
+  <div *ngIf="isAddSalesComment" class="mdl-textfield mdl-js-textfield">
+    <textarea cols="50" rows="5" type="text" [attr.id]="field.id" [(ngModel)]="newSalesComments" (input)="onSearchChange($event.target.value)" [disabled]="isDisableAllFields"></textarea>
+
+    <br>
+
+    <div>
+      <button (click)="cancelCustomSalesComment()" class="activiti-btn activiti-btn-primary customSubmitSalesButton" [disabled]="isDisableAllFields"><i class="fa fa-close"></i>
+        CANCEL SALES COMMENT</button>
+    </div>
+  </div>
+</body>
+
+</html>

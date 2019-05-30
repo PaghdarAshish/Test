@@ -1,0 +1,46 @@
+router-outlet[name="overlay"] + * {
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mat-tab-labels .mat-tab-label-active{
+    opacity: 1;
+}
+.mat-tab-label-active .mat-tab-label-content{
+    color: #000;
+}
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin:0;
+    background: rgba(255,255,255, 0.5);
+}
+
+.loader img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    top: 45%;
+}
+
+.adf-form-container .mat-tab-label{
+    text-transform: none !important;
+}
+
+.example-quotation-attachment-report .mat-checkbox-checked .mat-checkbox-background{
+    background-color: #ff8c00;
+}
+.clearfix{
+    clear: both;
+}

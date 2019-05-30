@@ -1,0 +1,479 @@
+<div class="example-quotation-attachment-report">
+  <mat-tab-group>
+  <mat-tab><ng-template mat-tab-label>Quotation Detail</ng-template>
+    <div class="quotation-detail-section">
+      <table width="100%" border="0" cellspacing="0" cellpadding="2" class="new-table-quotataion">
+          <tbody>
+            <tr>
+              <td width="0%">&nbsp;</td>
+              <td width="16%" align="left" style="font-weight: bold">Job Type: </td>
+              <td width="32%"><span [class.highlight-font]="quotationDetail.headerSegment.vtext.update">{{quotationDetail.headerSegment.vtext.value}}</span></td>
+              <td width="1%">&nbsp;</td>
+              <td width="16%" align="left" style="font-weight: bold">Dated:</td>
+              <td width="34%"><span [class.highlight-font]="quotationDetail.headerSegment.erdat.update">{{quotationDetail.headerSegment.erdat.value}}</span></td>
+              <td width="1%">&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Nature:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.nature.update">{{quotationDetail.headerSegment.nature.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Enquiry No: </td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.inq.update">{{quotationDetail.headerSegment.inq.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Sales:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.vbeln.update">{{quotationDetail.headerSegment.vbeln.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Quotation No:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.quo.update">{{quotationDetail.headerSegment.quo.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Sales District:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.district.update">{{quotationDetail.headerSegment.district.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">DQ No:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.bstnk.update">{{quotationDetail.headerSegment.bstnk.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Sales Employee:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.sname.update">{{quotationDetail.headerSegment.sname.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Customer Name:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.custname.update">{{quotationDetail.headerSegment.custname.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Selling Currency:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.waerk.update">{{quotationDetail.headerSegment.waerk.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Currency Conversion:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.kurrf.update">{{quotationDetail.headerSegment.kurrf.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Approval Status:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.txt04.update">{{quotationDetail.headerSegment.txt04.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Plant Currency:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.waers.update">{{quotationDetail.headerSegment.waers.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Document Type:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.auart.update">{{quotationDetail.headerSegment.auart.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Client Name: </td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.cltname.update">{{quotationDetail.headerSegment.cltname.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Document Desc:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.bezei.update">{{quotationDetail.headerSegment.bezei.value}}</span></td>
+              <td>&nbsp;</td>
+              <td align="left" style="font-weight: bold">Location:</td>
+              <td><span [class.highlight-font]="quotationDetail.headerSegment.cltloc.update">{{quotationDetail.headerSegment.cltloc.value}}</span></td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+      </table>
+      <p></p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="new-table-priceandweight">
+          <tbody>
+            <tr>
+              <td width="3%" style="font-weight: bold">A</td>
+              <td width="34%" style="font-weight: bold">Price and Weight Breakup</td>
+              <td width="10%">&nbsp;</td>
+              <td width="15%">&nbsp;</td>
+              <td width="11%">&nbsp;</td>
+              <td width="14%">&nbsp;</td>
+              <td width="14%">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="7"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="sub-table-priceandweight table-new-border-1">
+                <tbody>
+                  <tr>
+                    <th colspan="2" style="font-weight: bold">Item</th>
+                    <!-- <th width="7%" align="center" style="font-weight: bold">Area<br>
+                      SQ Mt.
+                    </th> -->
+                    <th width="16%" align="center" style="font-weight: bold">Weight <br>
+                      Mt.</th>
+                    <th width="12%" align="center" style="font-weight: bold">Book<br>
+                      Price</th>
+                    <th width="14%" align="center" style="font-weight: bold">Discount <br>
+                      %</th>
+                    <th width="14%" align="center" style="font-weight: bold">Discount <br>
+                      Price</th>
+                  </tr>
+                  <tr [class.highlight-font]="priceAndWeight.updated" *ngFor="let priceAndWeight of quotationDetail.priceAndWeightBreakup;let i = index;">
+                    <td width="3%" align="center">{{i+1}}</td>
+                    <td width="34%">{{priceAndWeight.item}}</td>
+                    <!-- <td align="right">{{priceAndWeight.areaSqMt}}</td> -->
+                    <td align="right">{{priceAndWeight.weightMt}}</td>
+                    <td align="right">{{priceAndWeight.bookPrice}}</td>
+                    <td align="right">{{priceAndWeight.discount}}</td>
+                    <td align="right">{{priceAndWeight.discountPrice}}</td>
+                  </tr>
+                </tbody>
+              </table></td>
+            </tr>
+          </tbody>
+      </table>
+      <p></p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="new-table-other-charge">
+          <tbody>
+            <tr>
+              <td width="3%" style="font-weight: bold">B</td>
+              <td width="35%" style="font-weight: bold">Others Charges</td>
+              <td width="6%">&nbsp;</td>
+              <td width="16%">&nbsp;</td>
+              <td width="12%">&nbsp;</td>
+              <td width="14%">&nbsp;</td>
+              <td width="14%">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="7"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="sub-table-other-charge table-new-border-2">
+                <tbody>
+                  <tr>
+                    <th colspan="2" style="font-weight: bold">Item</th>
+                    <!-- <th width="12%" align="center" style="font-weight: bold">% Age </th> -->
+                    <th width="14%" align="center" style="font-weight: bold">Amount</th>
+                    <!-- <th width="14%" align="center" style="font-weight: bold">Amount</th> -->
+                  </tr>
+                  <tr [class.highlight-font]="otherCharge.updated" *ngFor="let otherCharge of quotationDetail.otherCharges;let i = index;">
+                    <td width="3%" align="center">{{i+1}}</td>
+                    <td>{{otherCharge.item}}</td>
+                    <!-- <td align="right">{{otherCharge.percentage}}</td> -->
+                    <td align="right">{{otherCharge.amount}}</td>
+                    <!-- <td align="right">{{otherCharge.totalAmount}}</td> -->
+                  </tr>
+                </tbody>
+              </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-border-truck-section">
+                  <tbody>
+                    <tr>
+                      <td>Fright Cost from plant</td>
+                      <td width="9%" align="right"><span [class.highlight-font]="quotationDetail.headerSegment.frieght1.update">{{quotationDetail.headerSegment.frieght1.value}}</span></td>
+                      <td width="11%">No of Trucks</td>
+                      <td width="12%" align="right"><span [class.highlight-font]="quotationDetail.headerSegment.frieght2.update">{{quotationDetail.headerSegment.frieght2.value}}</span></td>
+                      <td width="14%" align="center">KD / Truck</td>
+                      <td width="14%"></td>
+                    </tr>
+                    <tr>
+                      <td>Fright Cost - Other Plant</td>
+                      <td align="right"><span [class.highlight-font]="quotationDetail.headerSegment.trucks1.update">{{quotationDetail.headerSegment.trucks1.value}}</span></td>
+                      <td>No of Trucks</td>
+                      <td align="right"><span [class.highlight-font]="quotationDetail.headerSegment.trucks2.update">{{quotationDetail.headerSegment.trucks2.value}}</span></td>
+                      <td align="center">KD / Truck</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+              </table></td>
+            </tr>
+          </tbody>
+      </table>
+      <p></p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="new-table-project-weight-mt">
+          <tbody>
+            <tr>
+              <td><table width="100%" border="0" cellspacing="0" cellpadding="2" class="sub-table-project-weight-mt table-new-border-3">
+                <tbody>
+                  <tr>
+                    <th width="35%" style="font-weight: bold">Project Weight MT</th>
+                    <th width="14%" align="center" style="font-weight: bold">Price</th>
+                    <th width="11%" align="center" style="font-weight: bold">Other Charges</th>
+                    <th width="26%" align="center" style="font-weight: bold">Net Price</th>
+                    <th width="14%" align="center" style="font-weight: bold">Realisation</th>
+                  </tr>
+                  <tr>
+                    <td align="right"><span [class.highlight-font]="quotationDetail.headerSegment.projmt.update">{{quotationDetail.headerSegment.projmt.value}}</span></td>
+                    <td align="right"><span [class.highlight-font]="quotationDetail.headerSegment.projprice.update">{{quotationDetail.headerSegment.projprice.value}}</span></td>
+                    <td align="right"><span [class.highlight-font]="quotationDetail.headerSegment.projother.update">{{quotationDetail.headerSegment.projother.value}}</span></td>
+                    <td align="right"><span [class.highlight-font]="quotationDetail.headerSegment.projnet.update">{{quotationDetail.headerSegment.projnet.value}}</span></td>
+                    <td align="right"><span [class.highlight-font]="quotationDetail.headerSegment.projreal.update">{{quotationDetail.headerSegment.projreal.value}}</span></td>
+                  </tr>
+                </tbody>
+              </table></td>
+            </tr>
+          </tbody>
+      </table>
+      <p></p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="sub-table-term-condition">
+          <tbody>
+            <tr>
+              <td width="3%" style="font-weight: bold">C</td>
+              <td width="34%" style="font-weight: bold">Terms and Conditions</td>
+              <td width="7%">&nbsp;</td>
+              <td width="16%">&nbsp;</td>
+              <td width="12%">&nbsp;</td>
+              <td width="14%">&nbsp;</td>
+              <td width="14%">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="7"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-border-all">
+                <tbody>
+                  <tr>
+                    <td width="3%" align="center" class="border_right_2">1</td>
+                    <td width="34%">Kirby Standard Terms</td>
+                    <td width="7%" align="center"><span [class.highlight-font]="quotationDetail.headerSegment.kst.update">{{canbeChecked(quotationDetail.headerSegment.kst.value)}}</span></td>
+                    <!-- <td align="left">If No, please specify:&nbsp;&nbsp;&nbsp;<span style="border-bottom: 2px solid #000;width: 70%;display: inline-block;"><span [class.highlight-font]="quotationDetail.headerSegment.ksttext.update">{{quotationDetail.headerSegment.ksttext.value}}</span></span></td> -->
+                    <td align="left"><span style="width: 56%;display: inline-block;"><span [class.highlight-font]="quotationDetail.headerSegment.ksttext.update">{{quotationDetail.headerSegment.ksttext.value}}</span></span></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">2</td>
+                    <td>Down Payment</td>
+                    <td align="center"><span [class.highlight-font]="quotationDetail.headerSegment.downpay.update">{{quotationDetail.headerSegment.downpay.value}}</span>%</td>
+                    <td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td class="grey_bg">By cheque &nbsp;<mat-checkbox  [ngModel]="quotationDetail.headerSegment.downpaych.value" [disabled]="true" ></mat-checkbox></td>
+                          <td class="grey_bg">By TT &nbsp;<mat-checkbox [ngModel]="quotationDetail.headerSegment.downpaytt.value" [disabled]="true" ></mat-checkbox></td>
+                          <td class="grey_bg">Through LC &nbsp;<mat-checkbox [ngModel]="quotationDetail.headerSegment.downpaylc.value" [disabled]="true" ></mat-checkbox></td>
+                          <td class="grey_bg">Others &nbsp;<mat-checkbox  [ngModel]="quotationDetail.headerSegment.downpayot.value" [disabled]="true" ></mat-checkbox></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td height="25" align="center" class="border_right_2">3</td>
+                    <td>Balance Payment</td>
+                    <td align="center"><span [class.highlight-font]="quotationDetail.headerSegment.billpay.update">{{quotationDetail.headerSegment.billpay.value}}</span>%</td><!--class="pay_per"--> 
+                    <td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                            <td>By cheque &nbsp;<mat-checkbox  [ngModel]="quotationDetail.headerSegment.billpaych.value" [disabled]="true" ></mat-checkbox></td>
+                            <td>By TT &nbsp;<mat-checkbox [ngModel]="quotationDetail.headerSegment.billpaytt.value" [disabled]="true" ></mat-checkbox></td>
+                            <td>Through LC &nbsp;<mat-checkbox [ngModel]="quotationDetail.headerSegment.billpaylc.value" [disabled]="true" ></mat-checkbox></td>
+                            <td>Others &nbsp;<mat-checkbox  [ngModel]="quotationDetail.headerSegment.billpayot.value" [disabled]="true" ></mat-checkbox></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2"  width="3%">4</td>
+                    <td  width="34%">Penalty / Liq. Dam. Charges</td>
+                    <td align="center"  width="7%"> <span [class.highlight-font]="quotationDetail.headerSegment.penalty.update">{{canbeChecked(quotationDetail.headerSegment.penalty.value)}}</span></td>
+                    <td align="left"  width="56%">Detail : &nbsp;&nbsp; <span [class.highlight-font]="quotationDetail.headerSegment.penaltytxt.update">{{quotationDetail.headerSegment.penaltytxt.value}}</span></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">5</td>
+                    <td>Performance Bond including duration</td>
+                    <td align="center"><span [class.highlight-font]="quotationDetail.headerSegment.perf.update">{{canbeChecked(quotationDetail.headerSegment.perf.value)}}</span></td>
+                    <td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td width="61%">Value :&nbsp;<span class="underline_value"><span [class.highlight-font]="quotationDetail.headerSegment.perfbond.update">{{quotationDetail.headerSegment.perfbond.value}}</span></span></td>
+                          <td width="39%" align="center">Duration :&nbsp;<span class="underline_duration"><span [class.highlight-font]="quotationDetail.headerSegment.perfdura.update">{{quotationDetail.headerSegment.perfdura.value}}</span></span></td>
+                          </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">6</td>
+                    <td>Down / Advance Payment Bond including duration</td>
+                    <td align="center"><span [class.highlight-font]="quotationDetail.headerSegment.advance.update">{{canbeChecked(quotationDetail.headerSegment.advance.value)}}</span></td>
+                    <td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                            <td class="grey_bg" width="61%">Value :&nbsp;<span class="underline_value"><span [class.highlight-font]="quotationDetail.headerSegment.advancebond.update">{{quotationDetail.headerSegment.advancebond.value}}</span></span></td>
+                            <td class="grey_bg" width="39%" align="center">Duration :&nbsp;<span class="underline_duration"><span [class.highlight-font]="quotationDetail.headerSegment.advancedura.update">{{quotationDetail.headerSegment.advancedura.value}}</span></span></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">7</td>
+                    <td>Retention Money Bond</td>
+                    <td align="center"><span [class.highlight-font]="quotationDetail.headerSegment.retention.update">{{canbeChecked(quotationDetail.headerSegment.retention.value)}}</span></td>
+                    <td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td width="61%">Value :&nbsp;<span class="underline_value"><span [class.highlight-font]="quotationDetail.headerSegment.retentionbond.update">{{quotationDetail.headerSegment.retentionbond.value}}</span></span></td>
+                          <td width="39%" align="center">Duration :&nbsp;<span class="underline_duration"><span [class.highlight-font]="quotationDetail.headerSegment.retentiondura.update">{{quotationDetail.headerSegment.retentiondura.value}}</span></span></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">8</td>
+                    <td>Other Bond / Guarantee</td>
+                    <td align="center"><span [class.highlight-font]="quotationDetail.headerSegment.other.update">{{canbeChecked(quotationDetail.headerSegment.other.value)}}</span></td>
+                    <td align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td class="grey_bg" width="61%">Value :&nbsp;<span class="underline_value"><span [class.highlight-font]="quotationDetail.headerSegment.otherbond.update">{{quotationDetail.headerSegment.otherbond.value}}</span></span></td>
+                          <td class="grey_bg" width="39%" align="center">Duration :&nbsp;<span class="underline_duration"><span [class.highlight-font]="quotationDetail.headerSegment.otherdura.update">{{quotationDetail.headerSegment.otherdura.value}}</span></span></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">9</td>
+                    <td>Insurance (Mat. / Eqpt. / Third Party) for Erection Contracts</td>
+                    <td align="center"><span [class.highlight-font]="quotationDetail.headerSegment.insurance.update">{{canbeChecked(quotationDetail.headerSegment.insurance.value)}}</span></td>
+                    <!-- <td align="left">If Yes, please specify:&nbsp;&nbsp;&nbsp;<span style="border-bottom: 2px solid #000;width: 70%;display: inline-block;"><span [class.highlight-font]="quotationDetail.headerSegment.insutext.update">{{quotationDetail.headerSegment.insutext.value}}</span></span></td> -->
+                     <td align="left"><span style="width: 99%;display: inline-block;"><span [class.highlight-font]="quotationDetail.headerSegment.insutext.update">{{quotationDetail.headerSegment.insutext.value}}</span></span></td>
+                  </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">10</td>
+                    <td>Delivery Lead Time</td>
+                    <td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td class="grey_bg" width="65%">From:<span class="underline_week"><span [class.highlight-font]="quotationDetail.headerSegment.dltfrom.update">{{quotationDetail.headerSegment.dltfrom.value}}</span></span>Weeks</td>
+                          <td class="grey_bg" width="35%">To:<span class="underline_week"><span [class.highlight-font]="quotationDetail.headerSegment.dltto.update">{{quotationDetail.headerSegment.dltto.value}}</span></span>Weeks</td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">11</td>
+                    <td>Approved Drawings Lead Time</td>
+                    <td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td width="65%">From:<span class="underline_week"><span [class.highlight-font]="quotationDetail.headerSegment.adltfrom.update">{{quotationDetail.headerSegment.adltfrom.value}}</span></span>Weeks</td>
+                          <td width="35%">To:<span class="underline_week"><span [class.highlight-font]="quotationDetail.headerSegment.adltto.update">{{quotationDetail.headerSegment.adltto.value}}</span></span>Weeks</td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">12</td>
+                    <td>Inco Terms</td>
+                    <td colspan="2" align="left"><span [class.highlight-font]="quotationDetail.headerSegment.inco1.update">{{quotationDetail.headerSegment.inco1.value}}</span>&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.inco1TXT.update">{{quotationDetail.headerSegment.inco1TXT.value}}</span></td>
+                    </tr>
+                  <tr>
+                    <td rowspan="6" align="center" class="border_right_2">13</td>
+                    <td>Special Technical Requirements</td>
+                    <td colspan="2" align="left">&nbsp;</td>
+                    </tr>
+                  <tr>
+                    <td>- Special Paint</td>
+                    <td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td  width="11%" class="border_right_1 grey_bg">&nbsp;&nbsp;&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.spaint.update">{{canbeChecked(quotationDetail.headerSegment.spaint.value)}}</span></td>
+                          <td width="89%" class="grey_bg underline_icon"> Details:&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.spainttext.update">{{quotationDetail.headerSegment.spainttext.value}}</span></td>
+                          <!-- <td width="66%"><span class="underline_icon grey_bg"><span [class.highlight-font]="quotationDetail.headerSegment.spainttext.update">{{quotationDetail.headerSegment.spainttext.value}}</span></span></td> -->
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td>- Sandwich Panel (SWP)</td>
+                    <td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td width="11%" class="border_right_1">&nbsp;&nbsp;&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.swp.update">{{canbeChecked(quotationDetail.headerSegment.swp.value)}}</span></td>
+                          <td width="89%" class="grey_bg underline_icon"> Details:&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.swptext.update">{{quotationDetail.headerSegment.swptext.value}}</span></td>
+                          <!-- <td width="66%"><span class="underline_icon"><span [class.highlight-font]="quotationDetail.headerSegment.swptext.update">{{quotationDetail.headerSegment.swptext.value}}</span></span></td>                        -->
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td>- Open Web Joists (OWJ)</td>
+                    <td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td width="11%" class="border_right_1 grey_bg">&nbsp;&nbsp;&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.owj.update">{{canbeChecked(quotationDetail.headerSegment.owj.value)}}</span></td>
+                          <td width="89%" class="grey_bg underline_icon"> Details:&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.owjtext.update">{{quotationDetail.headerSegment.owjtext.value}}</span></td>
+                          <!-- <td width="66%"><span class="underline_icon grey_bg"><span [class.highlight-font]="quotationDetail.headerSegment.owjtext.update">{{quotationDetail.headerSegment.owjtext.value}}</span></span></td> -->
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td>- Double Side Welding (DSW)</td>
+                    <td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td width="11%" class="border_right_1">&nbsp;&nbsp;&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.dsw.update">{{canbeChecked(quotationDetail.headerSegment.dsw.value)}}</span></td>
+                          <td width="89%" class="grey_bg underline_icon"> Details:&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.dswtext.update">{{quotationDetail.headerSegment.dswtext.value}}</span></td>
+                          <!-- <td width="66%"><span class="underline_icon"><span [class.highlight-font]="quotationDetail.headerSegment.dswtext.update">{{quotationDetail.headerSegment.dswtext.value}}</span></span></td> -->
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td>- Others (Special Process, etc)</td>
+                    <td colspan="2" align="left"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="table-new-noborder">
+                      <tbody>
+                        <tr>
+                          <td width="11%" class="border_right_1 grey_bg">&nbsp;&nbsp;&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.osp.update">{{canbeChecked(quotationDetail.headerSegment.osp.value)}}</span></td>
+                          <td width="89%" class="grey_bg underline_icon"> Details:&nbsp;&nbsp;<span [class.highlight-font]="quotationDetail.headerSegment.osptext.update">{{quotationDetail.headerSegment.osptext.value}}</span></td>
+                          <!-- <td width="66%"><span class="underline_icon grey_bg"><span [class.highlight-font]="quotationDetail.headerSegment.osptext.update">{{quotationDetail.headerSegment.osptext.value}}</span></span></td> -->
+                        </tr>
+                      </tbody>
+                    </table></td>
+                    </tr>
+                  <tr>
+                    <td align="center" class="border_right_2">14</td>
+                    <td>Remarks (Any Deviation from Std.terms need to be highlighted here), Any non standard product or services need to mentioned here.
+                    </td>
+                    <td colspan="2" align="center"><span [class.highlight-font]="quotationDetail.headerSegment.remarks.update">{{quotationDetail.headerSegment.remarks.value}}</span></td>
+                    </tr>
+                </tbody>
+              </table></td>
+            </tr>
+          </tbody>
+      </table>
+      <p></p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="new-table-justification">
+          <tbody>
+            <tr>
+              <td width="100%" colspan="7"><table width="100%" border="0" cellspacing="0" cellpadding="2" class="sub-table-justification table-new-border-4">
+                <tbody>
+                  <tr>
+                     <th align="left" style="font-weight: bold">D&nbsp;&nbsp;&nbsp;&nbsp;Justification For Above Discount</th>
+                    </tr>
+                  <tr>
+                    <td align="left"><span [class.highlight-font]="quotationDetail.headerSegment.justificationForAboveDiscount.update">{{quotationDetail.headerSegment.justificationForAboveDiscount.value}}</span></td>
+                  </tr>
+                </tbody>
+              </table></td>
+            </tr>
+          </tbody>
+      </table>
+    </div>
+  </mat-tab>
+  <mat-tab> <ng-template mat-tab-label>Attachments</ng-template>
+    <div class="attachment-section" *ngIf="quotationDetail.attachments.length != 0">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="new-table-attachment">
+            <tbody>
+                  <tr>
+                      <th style="font-weight: bold">Sl</th>
+                      <th style="font-weight: bold">Attachment</th>
+                      <th style="font-weight: bold">Date</th>
+                    </tr>
+                    <tr *ngFor="let attachment of quotationDetail.attachments;let i = index;">
+                      <td align="center">{{i+1}}</td>
+                      <td align="left"><a href="Javascript:void(0)" (click)="downloadFile(attachment.downloadURL,attachment.docName)">{{attachment.docName}}</a></td>
+                      <td align="left">{{attachment.date}}</td>
+                  </tr>
+            </tbody>
+          </table>
+    </div>
+    <div *ngIf="quotationDetail.attachments.length == 0" class="msg_div">
+        <p>Records Not Found</p>
+    </div>
+  </mat-tab>
+  </mat-tab-group>  
+</div>
+<br/>
+  
+  
+  
+  

@@ -1,0 +1,9 @@
+<router-outlet></router-outlet>
+<router-outlet name="overlay"></router-outlet>
+<div *ngIf="loader.loader">
+        <div class="overlay">
+        </div>
+        <div class="loader">
+                <img src="./assets/loader.gif">
+        </div>
+   </div>

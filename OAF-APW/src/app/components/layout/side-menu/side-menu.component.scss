@@ -1,0 +1,78 @@
+@mixin apw-side-menu-theme($theme) {
+
+    $primary: map-get($theme, primary);
+    $foreground: map-get($theme, foreground);
+    $background: map-get($theme, background);
+
+    $dw-side-menu-opacity: 0.54;
+    $dw-side-menu-font-size: 14px;
+
+    .dw {
+        &-create-menu-container {
+            padding: 16px 24px;
+            border-bottom: 1px solid rgba(0,0,0,.07);
+
+            .adf-userinfo-name-right {
+                width: fit-content;
+            }
+        }
+
+        &-create-icon-menu-container {
+            padding-bottom: 19px;
+            border-bottom: 1px solid rgba(0,0,0,.07);
+        }
+
+        &-menu-divider {
+            height: 1px;
+            opacity: 0.07;
+            background-color: mat-color($foreground, text);
+            margin: 12px -23px;
+        }
+    }
+
+    .adf {
+        &-panel-heading {
+            padding: 14px 0px 12px 12px;
+            width: calc(100% - 30px);
+            height: 24px;
+            opacity: $dw-side-menu-opacity;
+            cursor: pointer;
+        }
+
+        &-userinfo-button-profile {
+            color: mat-color($background, dialog);
+        }
+
+        &-panel-heading:hover {
+            color: mat-color($primary);
+            opacity: inherit;
+        }
+
+        &-panel-heading-selected {
+            opacity: inherit;
+        }
+
+        &-panel-heading-icon {
+            padding-left: 10px;
+        }
+
+        &-filters__entry {
+            .mat-list-item-content{
+                font-size: $dw-side-menu-font-size;
+            }
+            width: calc(100% - 50px);
+            opacity: $dw-side-menu-opacity;
+            padding-left: 50px
+        }
+
+        &-sidebar-action-menu-icon {
+            .mat-icon {
+                padding: 4px 0px 2px 2px
+            }
+            .mat-icon:hover, .dw-menu-icon--selected {
+                color: mat-color($primary);
+            }
+        }
+    }
+}
+

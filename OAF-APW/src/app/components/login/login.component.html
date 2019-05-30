@@ -1,0 +1,11 @@
+<!--LOGIN-->
+<adf-login #alfrescologin
+                [providers]="providers"
+                [fieldsValidation]="customValidation"
+                [disableCsrf]="disableCsrf"
+                [showLoginActions]="false"
+                [copyrightText]="copyrightText"
+                (executeSubmit)="validateForm($event)"
+                (success)="onLogin($event)"
+                (error)="onError($event)">
+</adf-login>

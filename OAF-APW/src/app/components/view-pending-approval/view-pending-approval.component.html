@@ -1,0 +1,21 @@
+<br/>
+<div *ngIf="pendingApprovalsDataSource.length > 0">
+<table width="100%" cellspacing="0" cellpadding="2" class="new-table-approval1">
+  <tbody>
+    <!-- <tr>
+      <th colspan="5" style="font-weight: bold" align="left">Approvals</th>
+    </tr> -->
+    <tr>
+        <th colspan="2" style="font-weight: bold" align="left" class="border_bottom">Pending Approvals</th>
+    </tr>
+    <tr>
+        <th width="50%" align="left" style="font-weight: bold" class="border_bottom">Designation</th>
+      <th width="50%" style="font-weight: bold" align="left" class="border_bottom">Name</th>      
+  </tr>
+    <tr *ngFor="let pendingApp of pendingApprovalsDataSource">        
+        <td class="border_right">{{pendingApp.designation}}</td>
+        <td>{{pendingApp.pendingApproval}}</td>
+    </tr>
+  </tbody>
+</table> 
+</div>

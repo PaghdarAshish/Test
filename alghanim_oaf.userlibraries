@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.mybatis:mybatis:3.3.1">
+    <archive path="D:/maven-repo/org/mybatis/mybatis/3.3.1/mybatis-3.3.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webmvc:4.0.9.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-webmvc/4.0.9.RELEASE/spring-webmvc-4.0.9.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-app-logic:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-app-logic/1.8.1/activiti-app-logic-1.8.1.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-cipher:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-cipher/1.8.1/activiti-cipher-1.8.1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml:classmate:1.3.1">
+    <archive path="D:/maven-repo/com/fasterxml/classmate/1.3.1/classmate-1.3.1.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpcore-nio:4.4.5">
+    <archive path="D:/maven-repo/org/apache/httpcomponents/httpcore-nio/4.4.5/httpcore-nio-4.4.5.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-spatial:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-spatial/4.10.4/lucene-spatial-4.10.4.jar" />
+  </library>
+  <library name="Maven: com.fasterxml:classmate:1.3.4">
+    <archive path="D:/maven-repo/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar" />
+  </library>
+  <library name="Maven: javax.xml.soap:saaj-api:1.3">
+    <archive path="D:/maven-repo/javax/xml/soap/saaj-api/1.3/saaj-api-1.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aspects:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-aspects/4.3.14.RELEASE/spring-aspects-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.google.oauth-client:google-oauth-client:1.18.0-rc">
+    <archive path="D:/maven-repo/com/google/oauth-client/google-oauth-client/1.18.0-rc/google-oauth-client-1.18.0-rc.jar" />
+  </library>
+  <library name="Maven: org.javassist:javassist:3.18.1-GA">
+    <archive path="D:/maven-repo/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar" />
+  </library>
+  <library name="Maven: ch.qos.logback:logback-classic:1.1.11">
+    <archive path="D:/maven-repo/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-app-alfresco-cloud:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-app-alfresco-cloud/1.8.1/activiti-app-alfresco-cloud-1.8.1.jar" />
+  </library>
+  <library name="Maven: javax.xml.stream:stax-api:1.0-2">
+    <archive path="D:/maven-repo/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-core:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4.jar" />
+  </library>
+  <library name="Maven: org.apache.felix:org.osgi.core:1.0.0">
+    <archive path="D:/maven-repo/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.ldap:spring-ldap-core-tiger:2.3.2.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/ldap/spring-ldap-core-tiger/2.3.2.RELEASE/spring-ldap-core-tiger-2.3.2.RELEASE.jar" />
+  </library>
+  <library name="Maven: javax.servlet:javax.servlet-api:3.1.0">
+    <archive path="D:/maven-repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" />
+  </library>
+  <library name="Maven: com.aspose:aspose-pdf:10.3.0">
+    <archive path="D:/maven-repo/com/aspose/aspose-pdf/10.3.0/aspose-pdf-10.3.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.plugin:spring-plugin-metadata:1.2.0.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.google.apis:google-api-services-drive:v2-rev119-1.18.0-rc">
+    <archive path="D:/maven-repo/com/google/apis/google-api-services-drive/v2-rev119-1.18.0-rc/google-api-services-drive-v2-rev119-1.18.0-rc.jar" />
+  </library>
+  <library name="Maven: com.aspose:aspose-cells:8.4.2">
+    <archive path="D:/maven-repo/com/aspose/aspose-cells/8.4.2/aspose-cells-8.4.2.jar" />
+  </library>
+  <library name="Maven: com.activiti:content-storage-s3:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/content-storage-s3/1.8.1/content-storage-s3-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-core:4.2.16.Final">
+    <archive path="D:/maven-repo/org/hibernate/hibernate-core/4.2.16.Final/hibernate-core-4.2.16.Final.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-spring:5.22.0.6">
+    <archive path="D:/maven-repo/com/activiti/activiti-spring/5.22.0.6/activiti-spring-5.22.0.6.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jdbc:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-jdbc/4.3.14.RELEASE/spring-jdbc-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.tinyjee.jgraphx:jgraphx:1.10.4.1">
+    <archive path="D:/maven-repo/org/tinyjee/jgraphx/jgraphx/1.10.4.1/jgraphx-1.10.4.1.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-logging/1.5.10.RELEASE/spring-boot-starter-logging-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:4.0.9.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-web/4.0.9.RELEASE/spring-web-4.0.9.RELEASE.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-swagger2:2.6.0">
+    <archive path="D:/maven-repo/io/springfox/springfox-swagger2/2.6.0/springfox-swagger2-2.6.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-queries:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-queries/4.10.4/lucene-queries-4.10.4.jar" />
+  </library>
+  <library name="Maven: commons-codec:commons-codec:1.10">
+    <archive path="D:/maven-repo/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" />
+  </library>
+  <library name="Maven: commons-pool:commons-pool:1.6">
+    <archive path="D:/maven-repo/commons-pool/commons-pool/1.6/commons-pool-1.6.jar" />
+  </library>
+  <library name="Maven: commons-collections:commons-collections:3.2.2">
+    <archive path="D:/maven-repo/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" />
+  </library>
+  <library name="Maven: javax.annotation:jsr250-api:1.0">
+    <archive path="D:/maven-repo/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-schema:2.6.0">
+    <archive path="D:/maven-repo/io/springfox/springfox-schema/2.6.0/springfox-schema-2.6.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-jdbc:4.3.13.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-jdbc/4.3.13.RELEASE/spring-jdbc-4.3.13.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.aspose:aspose-diagram:5.3.0">
+    <archive path="D:/maven-repo/com/aspose/aspose-diagram/5.3.0/aspose-diagram-5.3.0.jar" />
+  </library>
+  <library name="Maven: com.google.http-client:google-http-client:1.18.0-rc">
+    <archive path="D:/maven-repo/com/google/http-client/google-http-client/1.18.0-rc/google-http-client-1.18.0-rc.jar" />
+  </library>
+  <library name="Maven: commons-validator:commons-validator:1.4.0">
+    <archive path="D:/maven-repo/commons-validator/commons-validator/1.4.0/commons-validator-1.4.0.jar" />
+  </library>
+  <library name="Maven: com.ryantenney.metrics:metrics-spring:3.1.3">
+    <archive path="D:/maven-repo/com/ryantenney/metrics/metrics-spring/3.1.3/metrics-spring-3.1.3.jar" />
+  </library>
+  <library name="Maven: commons-io:commons-io:2.4">
+    <archive path="D:/maven-repo/commons-io/commons-io/2.4/commons-io-2.4.jar" />
+  </library>
+  <library name="Maven: com.sun.org.apache.xml.internal:resolver:20050927">
+    <archive path="D:/maven-repo/com/sun/org/apache/xml/internal/resolver/20050927/resolver-20050927.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-misc:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-misc/4.10.4/lucene-misc-4.10.4.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch-cloud-aws:2.7.1">
+    <archive path="D:/maven-repo/org/elasticsearch/elasticsearch-cloud-aws/2.7.1/elasticsearch-cloud-aws-2.7.1.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch:elasticsearch:1.7.3">
+    <archive path="D:/maven-repo/org/elasticsearch/elasticsearch/1.7.3/elasticsearch-1.7.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-web:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-web/4.3.14.RELEASE/spring-web-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.ldap:spring-ldap-core:2.3.2.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/ldap/spring-ldap-core/2.3.2.RELEASE/spring-ldap-core-2.3.2.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-test:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-test/1.5.10.RELEASE/spring-boot-starter-test-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-webmvc:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.apache.chemistry.opencmis:chemistry-opencmis-client-impl:0.10.0">
+    <archive path="D:/maven-repo/org/apache/chemistry/opencmis/chemistry-opencmis-client-impl/0.10.0/chemistry-opencmis-client-impl-0.10.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-expression:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-expression/4.3.14.RELEASE/spring-expression-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: io.swagger:swagger-annotations:1.5.10">
+    <archive path="D:/maven-repo/io/swagger/swagger-annotations/1.5.10/swagger-annotations-1.5.10.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.5">
+    <archive path="D:/maven-repo/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar" />
+  </library>
+  <library name="Maven: org.codehaus.woodstox:stax2-api:3.1.1">
+    <archive path="D:/maven-repo/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar" />
+  </library>
+  <library name="Maven: com.amazonaws:aws-java-sdk-s3:1.10.12">
+    <archive path="D:/maven-repo/com/amazonaws/aws-java-sdk-s3/1.10.12/aws-java-sdk-s3-1.10.12.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjweaver:1.8.13">
+    <archive path="D:/maven-repo/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar" />
+  </library>
+  <library name="Maven: org.liquibase:liquibase-core:3.5.3">
+    <archive path="D:/maven-repo/org/liquibase/liquibase-core/3.5.3/liquibase-core-3.5.3.jar" />
+  </library>
+  <library name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.2.Final">
+    <archive path="D:/maven-repo/org/hibernate/common/hibernate-commons-annotations/4.0.2.Final/hibernate-commons-annotations-4.0.2.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-email:1.5">
+    <archive path="D:/maven-repo/org/apache/commons/commons-email/1.5/commons-email-1.5.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-core:1.3">
+    <archive path="D:/maven-repo/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-queryparser:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-queryparser/4.10.4/lucene-queryparser-4.10.4.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-bpmn-model:5.22.0.6">
+    <archive path="D:/maven-repo/com/activiti/activiti-bpmn-model/5.22.0.6/activiti-bpmn-model-5.22.0.6.jar" />
+  </library>
+  <library name="Maven: javax.xml.ws:jaxws-api:2.1">
+    <archive path="D:/maven-repo/javax/xml/ws/jaxws-api/2.1/jaxws-api-2.1.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-swagger-common:2.6.0">
+    <archive path="D:/maven-repo/io/springfox/springfox-swagger-common/2.6.0/springfox-swagger-common-2.6.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-beans:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-beans/4.3.14.RELEASE/spring-beans-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.alfresco.officeservices:aoservices:2.10.0">
+    <archive path="D:/maven-repo/com/alfresco/officeservices/aoservices/2.10.0/aoservices-2.10.0.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-context/4.3.14.RELEASE/spring-context-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.activiti:aspose-transformation:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/aspose-transformation/1.8.1/aspose-transformation-1.8.1.jar" />
+  </library>
+  <library name="Maven: com.activiti:editor-dmn-json-converter:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/editor-dmn-json-converter/1.8.1/editor-dmn-json-converter-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat:tomcat-annotations-api:8.5.27">
+    <archive path="D:/maven-repo/org/apache/tomcat/tomcat-annotations-api/8.5.27/tomcat-annotations-api-8.5.27.jar" />
+  </library>
+  <library name="Maven: com.activiti:content-storage-fs:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/content-storage-fs/1.8.1/content-storage-fs-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-orm:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-orm/4.3.14.RELEASE/spring-orm-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: junit:junit:4.12">
+    <archive path="D:/maven-repo/junit/junit/4.12/junit-4.12.jar" />
+  </library>
+  <library name="Maven: org.apache.chemistry.opencmis:chemistry-opencmis-commons-api:0.10.0">
+    <archive path="D:/maven-repo/org/apache/chemistry/opencmis/chemistry-opencmis-commons-api/0.10.0/chemistry-opencmis-commons-api-0.10.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-jpa:1.11.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/data/spring-data-jpa/1.11.10.RELEASE/spring-data-jpa-1.11.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.bouncycastle:bcprov-jdk15on:1.52">
+    <archive path="D:/maven-repo/org/bouncycastle/bcprov-jdk15on/1.52/bcprov-jdk15on-1.52.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jul-to-slf4j:1.7.25">
+    <archive path="D:/maven-repo/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-sandbox:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-sandbox/4.10.4/lucene-sandbox-4.10.4.jar" />
+  </library>
+  <library name="Maven: org.skyscreamer:jsonassert:1.4.0">
+    <archive path="D:/maven-repo/org/skyscreamer/jsonassert/1.4.0/jsonassert-1.4.0.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-el:8.5.27">
+    <archive path="D:/maven-repo/org/apache/tomcat/embed/tomcat-embed-el/8.5.27/tomcat-embed-el-8.5.27.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-app-data:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-app-data/1.8.1/activiti-app-data-1.8.1.jar" />
+  </library>
+  <library name="Maven: com.sun.mail:javax.mail:1.5.6">
+    <archive path="D:/maven-repo/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-image-generator:5.22.0.6">
+    <archive path="D:/maven-repo/com/activiti/activiti-image-generator/5.22.0.6/activiti-image-generator-5.22.0.6.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-core:5.0.12.Final">
+    <archive path="D:/maven-repo/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-spi:2.6.0">
+    <archive path="D:/maven-repo/io/springfox/springfox-spi/2.6.0/springfox-spi-2.6.0.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-dmn-engine:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-dmn-engine/1.8.1/activiti-dmn-engine-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-highlighter:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-highlighter/4.10.4/lucene-highlighter-4.10.4.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-entitymanager:5.0.12.Final">
+    <archive path="D:/maven-repo/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar" />
+  </library>
+  <library name="Maven: com.amazonaws:aws-java-sdk-kms:1.10.12">
+    <archive path="D:/maven-repo/com/amazonaws/aws-java-sdk-kms/1.10.12/aws-java-sdk-kms-1.10.12.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-web:3.2.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/security/spring-security-web/3.2.10.RELEASE/spring-security-web-3.2.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.spatial4j:spatial4j:0.4.1">
+    <archive path="D:/maven-repo/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-tx/4.3.14.RELEASE/spring-tx-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: mysql:mysql-connector-java:5.1.45">
+    <archive path="D:/maven-repo/mysql/mysql-connector-java/5.1.45/mysql-connector-java-5.1.45.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-entitymanager:4.2.16.Final">
+    <archive path="D:/maven-repo/org/hibernate/hibernate-entitymanager/4.2.16.Final/hibernate-entitymanager-4.2.16.Final.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.25">
+    <archive path="D:/maven-repo/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" />
+  </library>
+  <library name="Maven: io.swagger:swagger-models:1.5.10">
+    <archive path="D:/maven-repo/io/swagger/swagger-models/1.5.10/swagger-models-1.5.10.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-core:2.6.0">
+    <archive path="D:/maven-repo/io/springfox/springfox-core/2.6.0/springfox-core-2.6.0.jar" />
+  </library>
+  <library name="Maven: net.minidev:accessors-smart:1.1">
+    <archive path="D:/maven-repo/net/minidev/accessors-smart/1.1/accessors-smart-1.1.jar" />
+  </library>
+  <library name="Maven: org.elasticsearch.client:elasticsearch-rest-client:5.6.1">
+    <archive path="D:/maven-repo/org/elasticsearch/client/elasticsearch-rest-client/5.6.1/elasticsearch-rest-client-5.6.1.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.ws:jaxws-rt:2.1.7">
+    <archive path="D:/maven-repo/com/sun/xml/ws/jaxws-rt/2.1.7/jaxws-rt-2.1.7.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-tx:4.3.13.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-tx/4.3.13.RELEASE/spring-tx-4.3.13.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:1.0.1.Final">
+    <archive path="D:/maven-repo/org/jboss/spec/javax/transaction/jboss-transaction-api_1.1_spec/1.0.1.Final/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-engine:5.22.0.6">
+    <archive path="D:/maven-repo/com/activiti/activiti-engine/5.22.0.6/activiti-engine-5.22.0.6.jar" />
+  </library>
+  <library name="Maven: com.box:box-java-sdk:1.0.0">
+    <archive path="D:/maven-repo/com/box/box-java-sdk/1.0.0/box-java-sdk-1.0.0.jar" />
+  </library>
+  <library name="Maven: javax.xml.bind:jaxb-api:2.1">
+    <archive path="D:/maven-repo/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-join:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-join/4.10.4/lucene-join-4.10.4.jar" />
+  </library>
+  <library name="Maven: com.opencsv:opencsv:3.7">
+    <archive path="D:/maven-repo/com/opencsv/opencsv/3.7/opencsv-3.7.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-dmn-xml-converter:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-dmn-xml-converter/1.8.1/activiti-dmn-xml-converter-1.8.1.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-bpmn-layout:5.22.0.6">
+    <archive path="D:/maven-repo/com/activiti/activiti-bpmn-layout/5.22.0.6/activiti-bpmn-layout-5.22.0.6.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-log4j12:1.7.25">
+    <archive path="D:/maven-repo/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar" />
+  </library>
+  <library name="Maven: javax.validation:validation-api:1.1.0.Final">
+    <archive path="D:/maven-repo/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" />
+  </library>
+  <library name="Maven: com.amazonaws:aws-java-sdk-core:1.10.12">
+    <archive path="D:/maven-repo/com/amazonaws/aws-java-sdk-core/1.10.12/aws-java-sdk-core-1.10.12.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.3.3">
+    <archive path="D:/maven-repo/com/sun/xml/messaging/saaj/saaj-impl/1.3.3/saaj-impl-1.3.3.jar" />
+  </library>
+  <library name="Maven: net.minidev:json-smart:2.2.1">
+    <archive path="D:/maven-repo/net/minidev/json-smart/2.2.1/json-smart-2.2.1.jar" />
+  </library>
+  <library name="Maven: org.javassist:javassist:3.21.0-GA">
+    <archive path="D:/maven-repo/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0">
+    <archive path="D:/maven-repo/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-test:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-test/1.5.10.RELEASE/spring-boot-test-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.yaml:snakeyaml:1.17">
+    <archive path="D:/maven-repo/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar" />
+  </library>
+  <library name="Maven: joda-time:joda-time-hibernate:1.4">
+    <archive path="D:/maven-repo/joda-time/joda-time-hibernate/1.4/joda-time-hibernate-1.4.jar" />
+  </library>
+  <library name="Maven: org.jvnet:mimepull:1.3">
+    <archive path="D:/maven-repo/org/jvnet/mimepull/1.3/mimepull-1.3.jar" />
+  </library>
+  <library name="Maven: io.dropwizard.metrics:metrics-core:3.1.2">
+    <archive path="D:/maven-repo/io/dropwizard/metrics/metrics-core/3.1.2/metrics-core-3.1.2.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat:tomcat-jdbc:8.5.27">
+    <archive path="D:/maven-repo/org/apache/tomcat/tomcat-jdbc/8.5.27/tomcat-jdbc-8.5.27.jar" />
+  </library>
+  <library name="Maven: com.google.code.findbugs:jsr305:1.3.9">
+    <archive path="D:/maven-repo/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
+  </library>
+  <library name="Maven: commons-digester:commons-digester:1.8">
+    <archive path="D:/maven-repo/commons-digester/commons-digester/1.8/commons-digester-1.8.jar" />
+  </library>
+  <library name="Maven: org.bouncycastle:bcpg-jdk15on:1.52">
+    <archive path="D:/maven-repo/org/bouncycastle/bcpg-jdk15on/1.52/bcpg-jdk15on-1.52.jar" />
+  </library>
+  <library name="Maven: javax.activation:activation:1.1">
+    <archive path="D:/maven-repo/javax/activation/activation/1.1/activation-1.1.jar" />
+  </library>
+  <library name="Maven: io.springfox:springfox-spring-web:2.6.0">
+    <archive path="D:/maven-repo/io/springfox/springfox-spring-web/2.6.0/springfox-spring-web-2.6.0.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-app-box-cloud:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-app-box-cloud/1.8.1/activiti-app-box-cloud-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final">
+    <archive path="D:/maven-repo/org/hibernate/javax/persistence/hibernate-jpa-2.0-api/1.0.1.Final/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+  </library>
+  <library name="Maven: javax.transaction:javax.transaction-api:1.2">
+    <archive path="D:/maven-repo/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar" />
+  </library>
+  <library name="Maven: com.google.api-client:google-api-client:1.18.0-rc">
+    <archive path="D:/maven-repo/com/google/api-client/google-api-client/1.18.0-rc/google-api-client-1.18.0-rc.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-app-rest:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-app-rest/1.8.1/activiti-app-rest-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final">
+    <archive path="D:/maven-repo/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+  </library>
+  <library name="Maven: com.verhas:license3j:1.0.7">
+    <archive path="D:/maven-repo/com/verhas/license3j/1.0.7/license3j-1.0.7.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-memory:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-memory/4.10.4/lucene-memory-4.10.4.jar" />
+  </library>
+  <library name="Maven: aopalliance:aopalliance:1.0">
+    <archive path="D:/maven-repo/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+  </library>
+  <library name="Maven: org.jvnet.staxex:stax-ex:1.2">
+    <archive path="D:/maven-repo/org/jvnet/staxex/stax-ex/1.2/stax-ex-1.2.jar" />
+  </library>
+  <library name="Maven: com.jayway.jsonpath:json-path:2.2.0">
+    <archive path="D:/maven-repo/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar" />
+  </library>
+  <library name="Maven: com.mchange:mchange-commons-java:0.2.11">
+    <archive path="D:/maven-repo/com/mchange/mchange-commons-java/0.2.11/mchange-commons-java-0.2.11.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpclient:4.5.5">
+    <archive path="D:/maven-repo/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-grouping:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-grouping/4.10.4/lucene-grouping-4.10.4.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-aop/1.5.10.RELEASE/spring-boot-starter-aop-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: io.dropwizard.metrics:metrics-annotation:3.1.2">
+    <archive path="D:/maven-repo/io/dropwizard/metrics/metrics-annotation/3.1.2/metrics-annotation-3.1.2.jar" />
+  </library>
+  <library name="Maven: org.objenesis:objenesis:2.1">
+    <archive path="D:/maven-repo/org/objenesis/objenesis/2.1/objenesis-2.1.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-core:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.stream.buffer:streambuffer:0.9">
+    <archive path="D:/maven-repo/com/sun/xml/stream/buffer/streambuffer/0.9/streambuffer-0.9.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.27">
+    <archive path="D:/maven-repo/org/apache/tomcat/embed/tomcat-embed-core/8.5.27/tomcat-embed-core-8.5.27.jar" />
+  </library>
+  <library name="Maven: org.imgscalr:imgscalr-lib:4.2">
+    <archive path="D:/maven-repo/org/imgscalr/imgscalr-lib/4.2/imgscalr-lib-4.2.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-core:3.2.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.aspectj:aspectjrt:1.8.13">
+    <archive path="D:/maven-repo/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-process-validation:5.22.0.6">
+    <archive path="D:/maven-repo/com/activiti/activiti-process-validation/5.22.0.6/activiti-process-validation-5.22.0.6.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-autoconfigure/1.5.10.RELEASE/spring-boot-autoconfigure-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-test:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-test/4.3.14.RELEASE/spring-test-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-app-model:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-app-model/1.8.1/activiti-app-model-1.8.1.jar" />
+  </library>
+  <library name="Maven: com.aspose:aspose-slides:jdk16:15.4.0">
+    <archive path="D:/maven-repo/com/aspose/aspose-slides/15.4.0/aspose-slides-15.4.0-jdk16.jar" />
+  </library>
+  <library name="Maven: org.freemarker:freemarker:2.3.27-incubating">
+    <archive path="D:/maven-repo/org/freemarker/freemarker/2.3.27-incubating/freemarker-2.3.27-incubating.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot/1.5.10.RELEASE/spring-boot-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:4.1.6.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter/1.5.10.RELEASE/spring-boot-starter-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.apache.chemistry.opencmis:chemistry-opencmis-commons-impl:0.10.0">
+    <archive path="D:/maven-repo/org/apache/chemistry/opencmis/chemistry-opencmis-commons-impl/0.10.0/chemistry-opencmis-commons-impl-0.10.0.jar" />
+  </library>
+  <library name="Maven: commons-logging:commons-logging:1.2">
+    <archive path="D:/maven-repo/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" />
+  </library>
+  <library name="Maven: org.apache.chemistry.opencmis:chemistry-opencmis-client-bindings:0.10.0">
+    <archive path="D:/maven-repo/org/apache/chemistry/opencmis/chemistry-opencmis-client-bindings/0.10.0/chemistry-opencmis-client-bindings-0.10.0.jar" />
+  </library>
+  <library name="Maven: org.alfresco.cmis.client:alfresco-opencmis-extension:0.7">
+    <archive path="D:/maven-repo/org/alfresco/cmis/client/alfresco-opencmis-extension/0.7/alfresco-opencmis-extension-0.7.jar" />
+  </library>
+  <library name="Maven: javax.inject:javax.inject:1">
+    <archive path="D:/maven-repo/javax/inject/javax.inject/1/javax.inject-1.jar" />
+  </library>
+  <library name="Maven: dom4j:dom4j:1.6.1">
+    <archive path="D:/maven-repo/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" />
+  </library>
+  <library name="Maven: joda-time:joda-time:2.9.9">
+    <archive path="D:/maven-repo/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar" />
+  </library>
+  <library name="Maven: org.jboss.logging:jboss-logging:3.1.0.GA">
+    <archive path="D:/maven-repo/org/jboss/logging/jboss-logging/3.1.0.GA/jboss-logging-3.1.0.GA.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-math:2.2">
+    <archive path="D:/maven-repo/org/apache/commons/commons-math/2.2/commons-math-2.2.jar" />
+  </library>
+  <library name="Maven: org.codehaus.woodstox:woodstox-core-asl:4.2.0">
+    <archive path="D:/maven-repo/org/codehaus/woodstox/woodstox-core-asl/4.2.0/woodstox-core-asl-4.2.0.jar" />
+  </library>
+  <library name="Maven: org.mapstruct:mapstruct:1.0.0.Final">
+    <archive path="D:/maven-repo/org/mapstruct/mapstruct/1.0.0.Final/mapstruct-1.0.0.Final.jar" />
+  </library>
+  <library name="Maven: commons-dbcp:commons-dbcp:1.4">
+    <archive path="D:/maven-repo/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar" />
+  </library>
+  <library name="Maven: org.apache.httpcomponents:httpasyncclient:4.1.2">
+    <archive path="D:/maven-repo/org/apache/httpcomponents/httpasyncclient/4.1.2/httpasyncclient-4.1.2.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.10">
+    <archive path="D:/maven-repo/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar" />
+  </library>
+  <library name="Maven: io.dropwizard.metrics:metrics-healthchecks:3.1.2">
+    <archive path="D:/maven-repo/io/dropwizard/metrics/metrics-healthchecks/3.1.2/metrics-healthchecks-3.1.2.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-aop:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-aop/4.3.14.RELEASE/spring-aop-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13">
+    <archive path="D:/maven-repo/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar" />
+  </library>
+  <library name="Maven: org.apache.commons:commons-lang3:3.3.2">
+    <archive path="D:/maven-repo/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-dmn-model:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/activiti-dmn-model/1.8.1/activiti-dmn-model-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.hamcrest:hamcrest-library:1.3">
+    <archive path="D:/maven-repo/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar" />
+  </library>
+  <library name="Maven: org.jboss.logging:jboss-logging:3.3.1.Final">
+    <archive path="D:/maven-repo/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4">
+    <archive path="D:/maven-repo/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar" />
+  </library>
+  <library name="Maven: com.sun.xml.bind:jaxb-impl:2.1.11">
+    <archive path="D:/maven-repo/com/sun/xml/bind/jaxb-impl/2.1.11/jaxb-impl-2.1.11.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0">
+    <archive path="D:/maven-repo/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-ldap:4.2.4.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/security/spring-security-ldap/4.2.4.RELEASE/spring-security-ldap-4.2.4.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-jdbc:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-jdbc/1.5.10.RELEASE/spring-boot-starter-jdbc-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.mchange:c3p0:0.9.5.2">
+    <archive path="D:/maven-repo/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar" />
+  </library>
+  <library name="Maven: org.codehaus.groovy:groovy-all:2.4.13">
+    <archive path="D:/maven-repo/org/codehaus/groovy/groovy-all/2.4.13/groovy-all-2.4.13.jar" />
+  </library>
+  <library name="Maven: ch.qos.logback:logback-core:1.1.11">
+    <archive path="D:/maven-repo/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar" />
+  </library>
+  <library name="Maven: org.hibernate:hibernate-validator:5.3.6.Final">
+    <archive path="D:/maven-repo/org/hibernate/hibernate-validator/5.3.6.Final/hibernate-validator-5.3.6.Final.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:17.0">
+    <archive path="D:/maven-repo/com/google/guava/guava/17.0/guava-17.0.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-suggest:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-suggest/4.10.4/lucene-suggest-4.10.4.jar" />
+  </library>
+  <library name="Maven: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.activiti:editor-image-generator:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/editor-image-generator/1.8.1/editor-image-generator-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.27">
+    <archive path="D:/maven-repo/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.27/tomcat-embed-websocket-8.5.27.jar" />
+  </library>
+  <library name="Maven: org.slf4j:log4j-over-slf4j:1.7.25">
+    <archive path="D:/maven-repo/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar" />
+  </library>
+  <library name="Maven: com.activiti:content-storage-api:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/content-storage-api/1.8.1/content-storage-api-1.8.1.jar" />
+  </library>
+  <library name="Maven: math.geom2d:javaGeom:0.11.1">
+    <archive path="D:/maven-repo/math/geom2d/javaGeom/0.11.1/javaGeom-0.11.1.jar" />
+  </library>
+  <library name="Maven: org.slf4j:jcl-over-slf4j:1.7.25">
+    <archive path="D:/maven-repo/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar" />
+  </library>
+  <library name="Maven: org.mockito:mockito-core:1.10.19">
+    <archive path="D:/maven-repo/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar" />
+  </library>
+  <library name="Maven: org.apache.lucene:lucene-analyzers-common:4.10.4">
+    <archive path="D:/maven-repo/org/apache/lucene/lucene-analyzers-common/4.10.4/lucene-analyzers-common-4.10.4.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-freemarker:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-freemarker/1.5.10.RELEASE/spring-boot-starter-freemarker-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.activiti:editor-bpmn-json-converter:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/editor-bpmn-json-converter/1.8.1/editor-bpmn-json-converter-1.8.1.jar" />
+  </library>
+  <library name="Maven: org.assertj:assertj-core:2.6.0">
+    <archive path="D:/maven-repo/org/assertj/assertj-core/2.6.0/assertj-core-2.6.0.jar" />
+  </library>
+  <library name="Maven: com.aspose:aspose-words:jdk16:15.5.0">
+    <archive path="D:/maven-repo/com/aspose/aspose-words/15.5.0/aspose-words-15.5.0-jdk16.jar" />
+  </library>
+  <library name="Maven: commons-beanutils:commons-beanutils:1.8.3">
+    <archive path="D:/maven-repo/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar" />
+  </library>
+  <library name="Maven: org.springframework:spring-context-support:4.3.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/spring-context-support/4.3.14.RELEASE/spring-context-support-4.3.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: com.activiti:activiti-bpmn-converter:5.22.0.6">
+    <archive path="D:/maven-repo/com/activiti/activiti-bpmn-converter/5.22.0.6/activiti-bpmn-converter-5.22.0.6.jar" />
+  </library>
+  <library name="Maven: com.amazonaws:aws-java-sdk-ec2:1.10.12">
+    <archive path="D:/maven-repo/com/amazonaws/aws-java-sdk-ec2/1.10.12/aws-java-sdk-ec2-1.10.12.jar" />
+  </library>
+  <library name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1">
+    <archive path="D:/maven-repo/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10">
+    <archive path="D:/maven-repo/com/fasterxml/jackson/core/jackson-core/2.8.10/jackson-core-2.8.10.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-web:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-web/1.5.10.RELEASE/spring-boot-starter-web-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-test-autoconfigure:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-test-autoconfigure/1.5.10.RELEASE/spring-boot-test-autoconfigure-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.yaml:snakeyaml:1.12">
+    <archive path="D:/maven-repo/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar" />
+  </library>
+  <library name="Maven: log4j:log4j:1.2.16">
+    <archive path="D:/maven-repo/log4j/log4j/1.2.16/log4j-1.2.16.jar" />
+  </library>
+  <library name="Maven: org.springframework.security:spring-security-config:3.2.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/security/spring-security-config/3.2.10.RELEASE/spring-security-config-3.2.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.mvel:mvel2:2.2.6.Final">
+    <archive path="D:/maven-repo/org/mvel/mvel2/2.2.6.Final/mvel2-2.2.6.Final.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-tomcat:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-tomcat/1.5.10.RELEASE/spring-boot-starter-tomcat-1.5.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: antlr:antlr:2.7.7">
+    <archive path="D:/maven-repo/antlr/antlr/2.7.7/antlr-2.7.7.jar" />
+  </library>
+  <library name="Maven: com.google.http-client:google-http-client-jackson2:1.18.0-rc">
+    <archive path="D:/maven-repo/com/google/http-client/google-http-client-jackson2/1.18.0-rc/google-http-client-jackson2-1.18.0-rc.jar" />
+  </library>
+  <library name="Maven: org.springframework.security.oauth:spring-security-oauth2:2.0.14.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.springframework.data:spring-data-commons:1.13.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/data/spring-data-commons/1.13.10.RELEASE/spring-data-commons-1.13.10.RELEASE.jar" />
+  </library>
+  <library name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13">
+    <archive path="D:/maven-repo/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar" />
+  </library>
+  <library name="Maven: com.eclipsesource.minimal-json:minimal-json:0.9.1">
+    <archive path="D:/maven-repo/com/eclipsesource/minimal-json/minimal-json/0.9.1/minimal-json-0.9.1.jar" />
+  </library>
+  <library name="Maven: commons-fileupload:commons-fileupload:1.3.3">
+    <archive path="D:/maven-repo/commons-fileupload/commons-fileupload/1.3.3/commons-fileupload-1.3.3.jar" />
+  </library>
+  <library name="Maven: org.apache.tomcat:tomcat-juli:8.5.27">
+    <archive path="D:/maven-repo/org/apache/tomcat/tomcat-juli/8.5.27/tomcat-juli-8.5.27.jar" />
+  </library>
+  <library name="Maven: org.jboss:jandex:2.0.0.Final">
+    <archive path="D:/maven-repo/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar" />
+  </library>
+  <library name="Maven: com.activiti:ldap-connector:1.8.1">
+    <archive path="D:/maven-repo/com/activiti/ldap-connector/1.8.1/ldap-connector-1.8.1.jar" />
+  </library>
+  <library name="Maven: javax.mail:javax.mail-api:1.5.6">
+    <archive path="D:/maven-repo/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.jar" />
+  </library>
+  <library name="Maven: javax.servlet:jstl:1.2">
+    <archive path="D:/maven-repo/javax/servlet/jstl/1.2/jstl-1.2.jar" />
+  </library>
+  <library name="Maven: org.hibernate.common:hibernate-commons-annotations:5.0.1.Final">
+    <archive path="D:/maven-repo/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar" />
+  </library>
+  <library name="Maven: org.apache.chemistry.opencmis:chemistry-opencmis-client-api:0.10.0">
+    <archive path="D:/maven-repo/org/apache/chemistry/opencmis/chemistry-opencmis-client-api/0.10.0/chemistry-opencmis-client-api-0.10.0.jar" />
+  </library>
+  <library name="Maven: org.springframework.boot:spring-boot-starter-data-jpa:1.5.10.RELEASE">
+    <archive path="D:/maven-repo/org/springframework/boot/spring-boot-starter-data-jpa/1.5.10.RELEASE/spring-boot-starter-data-jpa-1.5.10.RELEASE.jar" />
+  </library>
+</eclipse-userlibraries>
+

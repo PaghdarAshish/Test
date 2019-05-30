@@ -1,0 +1,32 @@
+<ng-container *ngIf="loading">
+  <div fxLayout fxLayoutAlign="center">
+    <mat-spinner [mode]="'indeterminate'"></mat-spinner>
+  </div>
+</ng-container>
+<ng-container *ngIf="!loading">
+    <mat-card *ngIf="!taskDetails.endDate || comment === 'required'"  class="container">
+        <mat-card-subtitle>
+            {{(action !== 'comment' ? action: '') | titlecase}} Comments
+          </mat-card-subtitle>
+        <mat-card-content>
+          <mat-form-field class="example-full-width">
+            <textarea matInput id="message" placeholder="Enter a comment" [(ngModel)]="message" (input)="onSearchChange($event.target.value)"></textarea>            
+          </mat-form-field>
+          <mat-form-field class="example-full-width">
+            <textarea matInput placeholder="Enter a comment for Sales" [(ngModel)]="messageSales" (input)="onSearchChange2($event.target.value)"></textarea>
+          </mat-form-field>          
+        </mat-card-content>
+        <mat-card-actions fxLayout="row-reverse">
+          <button [class.btnApprove]="butCondition !== 'reject'" [class.btnReject]="butCondition === 'reject'" (click)="submitClicked()">{{butCondition === 'reject' ? "REJECT" : "APPROVE"}}</button>
+          <button  class="btnClear" (click)="message=''" (click)="messageSales=''">CLEAR</button>
+        </mat-card-actions>
+    </mat-card>
+  <mat-card *ngIf="taskDetails.endDate && comment === ''" fxLayout="column" fxFill>
+    <mat-card-subtitle> 
+      {{approvalMessage}}      
+    </mat-card-subtitle>
+    <!--<mat-card-actions>
+      <button mat-raised-button color="primary" (click)="redirectToHome()">Go to home</button>
+    </mat-card-actions>-->
+  </mat-card>
+</ng-container>

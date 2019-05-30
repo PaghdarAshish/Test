@@ -1,0 +1,29 @@
+/*--------Approval section--------------------------------------*/
+.new-table-approval{
+    width: 891px;
+    border: 3px solid #000;
+}
+.new-table-approval tr td,
+.new-table-approval tr th{
+    border: none;
+}
+
+.border_bottom{
+    border-bottom: 2px solid #000 !important; 
+}
+.border_right{
+    border-right: 2px solid #000 !important; 
+}
+.border_left{
+    border-left: 2px solid #000 !important; 
+}
+.border_right_2{
+    border-right: 2px solid #000 !important;
+}
+
+table tr th{
+    background: #ddd;
+}
+tr:nth-child(odd) {background-color: #fff;}
+tr:nth-child(even) {background-color: #f1f1f1;}
+

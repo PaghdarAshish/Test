@@ -1,0 +1,45 @@
+/*--------Approval section--------------------------------------*/
+.new-table-approval1 {
+    width: 891px;
+    border: 3px solid #000;
+}
+
+.new-table-approval1 tr td,
+.new-table-approval1 tr th{
+    border: none;
+}
+
+.border_bottom{
+    border-bottom: 2px solid #000 !important; 
+}
+.border_right{
+    border-right: 2px solid #000 !important; 
+}
+.border_left{
+    border-left: 2px solid #000 !important; 
+}
+
+// .new-table-approval tr th {
+//     border-bottom: 2px solid #000;
+// }
+// .new-table-approval tr td {
+//     ///border-bottom: 1px solid #000;
+//     border-right: 2px solid #000;
+// }
+// .new-table-approval tr td:last-child{
+//     border-right: 0px solid #000;
+// }
+// .new-table-approval tr:last-child td{
+//     border-bottom: 0px solid #000;
+// }
+
+.border_right_2{
+    border-right: 2px solid #000 !important;
+}
+
+table tr th{
+    background: #ddd;
+}
+tr:nth-child(odd) {background-color: #fff;}
+tr:nth-child(even) {background-color: #f1f1f1;}
+

@@ -1,0 +1,244 @@
+.example-quotation-attachment-report {
+    width: 891px;
+    
+    word-break: break-all;
+    //margin: 25px auto 0;
+    // box-shadow: 0 0 5px #ccc;
+    // padding: 10px 10px 30px 10px;
+}
+
+.attachment-section {
+    margin-top: 10px;
+    word-break: break-all;
+}
+
+/*-------------- Quation Detail Section -------------------------*/
+.new-table-quotataion {
+  border: 2px solid #000;
+  word-break: break-all;
+//   margin-left: 0.2ch;
+//     margin-right: 0.2ch;
+
+}
+     
+.new-table-quotataion tr th {
+  border: 1px solid #000;
+  font-weight: 400;
+}
+
+/*-------------- Price And Weight Section -------------------------*/
+.sub-table-priceandweight {
+    border: 2px solid #000;
+}
+
+.sub-table-priceandweight.table-new-border-1 tr th{
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.sub-table-priceandweight.table-new-border-1 tr th:last-child{
+    border-right: 0px solid #000;
+}
+.sub-table-priceandweight.table-new-border-1 tr td {
+    border-right: 2px solid #000;
+    border-left: 0px solid #000;
+}
+.sub-table-priceandweight.table-new-border-1 tr td:last-child{
+    border-right: 0px solid #000;
+    border-left: 0px solid #000;
+}
+
+
+/*-------------- Other Charge Section -------------------------*/
+
+.sub-table-other-charge {
+    border: 2px solid #000;
+    word-break: break-all;
+}
+
+.sub-table-other-charge.table-new-border-2 tr th{
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.sub-table-other-charge.table-new-border-2 tr th:last-child{
+    border-right: 0px solid #000;
+}
+.sub-table-other-charge.table-new-border-2 tr td {
+    border-right: 2px solid #000;
+    border-left: 0px solid #000;
+}
+.sub-table-other-charge.table-new-border-2 tr td:last-child{
+    border-right: 0px solid #000;
+    border-left: 0px solid #000;
+}
+
+
+.table-new-border-truck-section {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+.table-new-border-truck-section tr td{
+    border-right: 2px solid;
+}
+.table-new-border-truck-section tr td:last-child{
+    border-right: 0px solid;
+}
+.table-new-border-truck-section tr:last-child td {
+    border-top: 1px solid #000;
+}
+
+/*-------------- Project And Weight Section -------------------------*/
+
+
+.sub-table-project-weight-mt {
+    border: 2px solid #000;
+    word-break: break-all;
+}
+
+.sub-table-project-weight-mt.table-new-border-3 tr th{
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.sub-table-project-weight-mt.table-new-border-3 tr th:last-child{
+    border-right: 0px solid #000;
+}
+.sub-table-project-weight-mt.table-new-border-3 tr td{
+    border-right: 2px solid #000;
+}
+.sub-table-project-weight-mt.table-new-border-3 tr td:last-child{
+    border-right: 0px solid #000;
+}
+/*-------------- Term and Condition Section -------------------------*/ 
+
+.table-new-border-all {
+    border: 2px solid #000;
+    word-break: break-all;
+}
+.table-new-border-all  tr td{
+    border-right:2px solid #000;
+    border-bottom:2px solid #000;
+}
+
+.table-new-border-all  tr td:last-child{
+    border-right:0px solid #000;
+}
+.table-new-border-all  tr:last-child td{
+    border-bottom:0px solid #000;
+}
+
+.table-new-noborder tr td {
+    border: 0px;
+}
+
+
+/*-------------- Justifiction Section -------------------------*/ 
+
+.sub-table-justification{
+    border: 2px solid #000;
+    word-break: break-all;
+}
+
+.sub-table-justification.table-new-border-4 tr td {
+    border-top: 2px solid #000;
+}
+
+
+/*-------------Attachemnt Section------------------------------------*/
+
+.new-table-attachment {
+    border: 2px solid #000;
+    word-break: break-all;
+}
+
+.new-table-attachment tr th{
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.new-table-attachment tr td{
+    border-bottom: 1px solid #000;
+    border-right: 2px solid #000;
+}
+
+.new-table-attachment tr:last-child td{
+    border-bottom: 0px;
+}
+
+.new-table-attachment tr td:last-child{
+    border-right: 0px;
+}
+
+.new-table-attachment tr th:last-child{
+    border-right: 0px;
+}
+
+
+
+
+/*-------------------------Common CSS---------------------------------*/
+
+.border_right_1{
+    border-right: 1px solid #000 !important;
+}
+.border_right_2{
+    border-right: 2px solid #000 !important;
+}
+.border_left_1{
+    border-left: 1px solid #000 !important;
+}
+
+span.pay_per{
+    display: inline-block;
+    width: 45px;
+    border: 1px solid;
+    margin-left: 5px;
+
+}
+span.underline_value {
+    //border-bottom: 2px solid;
+    width: 84%;
+    display: inline-block;
+}
+span.underline_duration {
+    width: 64%;
+    display: inline-block;
+    //border-bottom: 2px solid;
+}
+span.underline_week{
+    display: inline-block;
+    //border-bottom: 2px solid;
+    width: 80px;
+    text-align: center;
+}
+span.underline_icon {
+    //border-bottom: 2px solid;
+    width: 99%;
+    display: inline-block;
+}
+
+.quotation-detail-section.ng-star-inserted {
+    margin-top: 20px;
+}
+
+.highlight-font{
+    background: #fcff63 !important;
+}
+/*-------------------------------------------------------------------------------*/
+table tr th{
+    background: #ddd;
+}
+tr:nth-child(odd) {background-color: #fff;}
+tr:nth-child(even) {background-color: #f1f1f1;}
+
+.grey_bg{
+    background-color: #f1f1f1;
+}
+
+.msg_div  {
+    background-color: #efefef;
+    margin: 5px;
+    padding: 0.5px;
+    text-align: center;
+    font-size: 16px;
+    color: #ff9903;
+}

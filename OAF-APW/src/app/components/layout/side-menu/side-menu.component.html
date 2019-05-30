@@ -1,0 +1,85 @@
+<!-- <div class="dw-create-menu-container" *ngIf="isExpanded(); else iconMenuTemp">
+    <adf-userinfo fxHide fxShow.xs></adf-userinfo>
+    <div fxHide fxShow.xs class="dw-menu-divider"></div>
+    <adf-sidebar-action-menu id="dw-create-menu-button" [expanded]="expanded" title="{{'DW-MENU.BUTTON.CREATE' | translate }}">
+        <mat-icon sidebar-menu-title-icon>arrow_drop_down</mat-icon>
+        <div sidebar-menu-options>
+            <button id="dw-new-task-menu" mat-menu-item (click)="onCreateClick('tasks')">
+                <mat-icon>assignment</mat-icon>
+                <span>{{'DW-MENU.BUTTON.NEW-TASK' | translate }}</span>
+            </button>
+            <button id="dw-new-process-menu" mat-menu-item (click)="onCreateClick('processes')">
+                <mat-icon>assessment</mat-icon>
+                <span>{{'DW-MENU.BUTTON.NEW-PROCESS' | translate }}</span>
+            </button>
+        </div>
+    </adf-sidebar-action-menu>
+</div> -->
+<!-- 
+<ng-template #iconMenuTemp>
+<div class="dw-create-icon-menu-container">
+    <adf-sidebar-action-menu [expanded]="expanded">
+        <mat-icon sidebar-menu-expand-icon matTooltip="{{'DW-MENU.MENU.CREATE' | translate }}" [class.dw-menu-icon--selected]="newProcessOrTask" class="dw-menu-icon">queue</mat-icon>
+        <div sidebar-menu-options>
+            <button mat-menu-item (click)="onCreateClick('tasks')">
+                <mat-icon>assignment</mat-icon>
+                <span>{{'DW-MENU.BUTTON.NEW-TASK' | translate }}</span>
+            </button>
+            <button mat-menu-item (click)="onCreateClick('processes')">
+                <mat-icon>assessment</mat-icon>
+                <span>{{'DW-MENU.BUTTON.NEW-PROCESS' | translate }}</span>
+            </button>
+        </div>
+    </adf-sidebar-action-menu>
+</div>
+</ng-template> -->
+
+<adf-accordion>
+    <!--<adf-accordion-group data-automation-id="adf-accordion-dashboard"
+        headingIconTooltip="{{ (!isExpanded()?'DW-MENU.MENU.DASHBOARD':'') | translate }}"
+        heading="{{ (isExpanded()?'DW-MENU.MENU.DASHBOARD':'') | translate }}"
+        [isSelected]="isMenuSelected('dashboard')"
+        [headingIcon]="'view_module'"
+        [hasAccordionIcon]="false"
+        (headingClick)="onAccordionClick('dashboard')"
+        [isOpen]="false">
+    </adf-accordion-group>-->
+    <adf-accordion-group data-automation-id="adf-accordion-task"
+        headingIconTooltip="{{(!isExpanded()?'DW-MENU.MENU.TASKS':'') | translate }}"
+        heading="{{ (isExpanded()?'DW-MENU.MENU.TASKS':'') | translate }}"
+        [isSelected]="isMenuSelected('tasks')"
+        [headingIcon]="'assignment'"
+        [hasAccordionIcon]="isExpanded()"
+        (headingClick)="onAccordionClick('tasks')"
+        [isOpen]="isMenuSelected('tasks') && isExpanded()">
+        <adf-filters #taskFilter [hidden]="!isExpanded()"
+            [filterParam]="currentTaskFilter"
+            [appId]="getAppId()"
+            [showIcon]="false"
+            (filterClick)="onTaskFilterClick($event)"
+            (success)="onSuccessTaskFilterList($event)">
+        </adf-filters>
+    </adf-accordion-group>
+    <adf-accordion-group data-automation-id="adf-accordion-process"
+        headingIconTooltip="{{(!isExpanded()?'DW-MENU.MENU.PROCESSES':'') | translate }}"
+        heading="{{ (isExpanded()?'DW-MENU.MENU.PROCESSES':'') | translate }}"
+        [isSelected]="isMenuSelected('processes')"
+        [headingIcon]="'assessment'"
+        [hasAccordionIcon]="isExpanded()"
+        (headingClick)="onAccordionClick('processes')"
+        [isOpen]="isMenuSelected('processes') && isExpanded()">
+        <adf-process-instance-filters  #processFilter [hidden]="!isExpanded()"
+            [filterParam]="currentProcessFilter"
+            [appId]="getAppId()"
+            [showIcon]="false"
+            (filterClick)="onProcessFilterClick($event)"
+            (success)="onSuccessProcessFilterList($event)">
+        </adf-process-instance-filters>
+    </adf-accordion-group>
+    <adf-accordion-group data-automation-id="adf-accordion-report"
+        headingIconTooltip="{{ (!isExpanded()?'DW-MENU.MENU.REPORT':'') | translate }}"
+        heading="{{ (isExpanded()?'DW-MENU.MENU.REPORT':'') | translate }}"
+        [isSelected]="isMenuSelected('report')" [headingIcon]="'storage'" [hasAccordionIcon]="false"
+        (headingClick)="onAccordionClick('report')" [isOpen]="false">
+</adf-accordion-group>
+</adf-accordion>

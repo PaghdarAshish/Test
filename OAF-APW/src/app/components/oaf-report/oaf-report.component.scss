@@ -1,0 +1,120 @@
+.example-oaf-report {
+    width:100%;
+    margin: 25px auto 0;
+    box-shadow: 0 0 5px #ccc;
+    padding: 10px 10px 30px 10px; 
+    display: table;
+}
+// .example-oaf-report .mat-tab-group{
+//     display: block;
+// }
+.msg_div  {
+    background-color: #efefef;
+    margin: 5px;
+    padding: 0.5px;
+    text-align: center;
+    font-size: 16px;
+    color: #ff9903;
+}
+
+.btn_report{
+    min-width: 160px;
+    line-height: 30px;
+    padding: 0 16px;
+    border-radius: 2px;
+    margin: 0 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    font-family: inherit;
+    font-weight: normal;
+    background: darkorange;
+    color: white;
+}
+
+.mat-form-field-invalid label.adf-label {
+    color: #f44336
+}
+
+.example-report-approval-table,.example-report-rejection-table,.example-report-pending-table {
+    margin-top: 15px;
+}
+
+.example-report-approval-table tr.mat-header-row,
+.example-report-rejection-table tr.mat-header-row,
+.example-report-pending-table tr.mat-header-row
+{
+    height: 38px !important;
+}
+
+.example-report-approval-table tr.mat-footer-row, tr.mat-row {
+    height: 38px !important;
+    // background: #e0f7fa;
+}
+
+.example-report-pending-table tr.mat-footer-row, tr.mat-row {
+    height: 38px !important;
+    // background: #e0f7fa;
+}
+
+.example-report-rejection-table tr.mat-footer-row, tr.mat-row {
+    height: 38px !important;
+    // background: #e0f7fa;
+}
+
+.example-report-approval-table table ,.example-report-pending-table table,
+.example-report-rejection-table table {
+    width: 100%;
+}
+
+.approval-report .form-new-field,
+.rejection-report .form-new-field,
+.pending-report .form-new-field{
+    float: left;
+    width:31%;
+    padding: 0 10px;
+}
+.approval-report .form-new-field .mat-form-field,
+.rejection-report .form-new-field .mat-form-field,
+.pending-report .form-new-field .mat-form-field{
+    width: 100%;
+}
+.credit-app-report-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.mat-header-cell {
+    font-size: 14px;
+}
+
+// table th{
+//   text-align: center;
+// }
+
+// table tr{
+//     text-align: center;
+//   }
+
+.mat-table{
+    box-shadow: none;
+}
+.mat-table th{
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background: #747474;
+    color: #fff;
+    text-shadow: none;
+}
+.mat-table td{
+    padding: 10px;
+    font-size: 12px;
+    text-align: center; 
+}
+.mat-table tr{
+    border: none;
+}
+.mat-table tr:nth-child(even){
+    background: #eee;
+}

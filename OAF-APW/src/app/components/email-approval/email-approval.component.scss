@@ -1,0 +1,63 @@
+.btnApprove,.btnReject,.btnClear{
+    min-width: 88px;
+    line-height: 36px;
+    padding: 0 16px;
+    border-radius: 2px;
+    margin: 0 5px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    font-family: inherit;
+    font-weight: normal;
+}
+
+
+.btnApprove {
+    background: seagreen;
+    color: white;
+}
+
+.btnReject {
+    background-color: crimson;
+    color: white;
+}
+
+.btnClear {
+    background-color: dodgerblue;
+    color: white; 
+}
+/*.container{
+    width: 1100px;
+    margin:50px auto;
+    border: 1px solid #ddd;
+} */
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    .mat-card>.mat-card-actions:last-child {
+       padding: 24px 16px !important;
+    }
+}
+
+.container mat-card-subtitle.mat-card-subtitle {
+    text-align: center;
+    font-size: 20px;
+    background: #f1f1f1;
+    padding: 15px;
+    border-bottom: 3px solid #ff8c00;
+    font-weight: bold;
+}
+.container .mat-form-field {
+    width: 100%;
+}
+.container .mat-form-field textarea{
+    height: 70px;
+    resize: none;
+}
