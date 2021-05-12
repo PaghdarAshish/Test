@@ -62,7 +62,7 @@
     "adf-tslint-rules": "0.0.5",
     "alfresco-js-api": "2.6.0-beta1",
     "alfresco-js-api-node": "2.5.0",
-    "chart.js": "2.5.0",
+    "chart.js": "2.9.4",
     "classlist.js": "1.1.20150312",
     "core-js": "2.5.4",
     "custom-event-polyfill": "0.3.0",
